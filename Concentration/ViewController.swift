@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         flipCard(withEmoji: "🎃", on: sender)
     }
     
+    
     func flipCard(withEmoji emoji: String, on button: UIButton) {
         if button.currentTitle == emoji {
             button.setTitle("", for: UIControlState.normal)
